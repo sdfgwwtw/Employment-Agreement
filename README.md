@@ -17,6 +17,13 @@ Step 8: Below is the result obtained with Naive Bayes Classifier:
 
 Module 2: Build a model to extract features from employment agreement document type and save it in CSV file.
 
+Step 1: Employment Agreement file is opened for reading its data.
+Step 2: The output of after reading the data from the Employment Agreement file is stored in some varaiable say, "sample" and it is passed as a parameter to various functions like get_human_names(), extract_notice_period(), extract_date, extract_salary(), extract_position().
 
-
+The purpose of the above functions are listed as below:
+get_human_names() - to extract names of the employee and employer.
+extract_notice_period() - to extract notice period before termination if given.
+extract_salary() - to extract base salary, bonus if given.
+extract_date() - to extract employment start date, employment end date and employment agreement date if given.
+extract_position() - to extract position/Job title of employee if given.
 
