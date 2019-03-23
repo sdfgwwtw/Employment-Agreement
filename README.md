@@ -27,3 +27,12 @@ extract_salary() - to extract base salary, bonus if given.
 extract_date() - to extract employment start date, employment end date and employment agreement date if given.
 extract_position() - to extract position/Job title of employee if given.
 
+Step 3: In extracting the human names, certain steps are there as follows: 
+a) Tokenization
+b) POS Tagging
+c) Chunk the taggs.
+d) Matching the labels with tags, if yes then return name else remove it.
+
+Step 4: All these functions are being runned in the main().
+Step 5: All datas all collected in a dictionary format (key, value).
+Step 6: All the dictionary datas are converted into dataframe format and then these datas are written finally in CSV file - "datas.csv".
